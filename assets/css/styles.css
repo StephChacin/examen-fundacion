@@ -105,6 +105,11 @@ body {
 display: inline;
 }
 
+.news-complete div {
+display: inline;
+margin-top: 100px;
+}
+
 .thumbnail { 
 	background-color: rgb(0, 0, 0, 0.05);
  }
