@@ -19,7 +19,7 @@
 
 <body>
 
-	<header class="header-fundacion">
+<header class="header-fundacion">
 
 		<!--Aquí va la barra de Navegación-->
 		<nav class="navbar navbar-default">
@@ -33,28 +33,42 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img src="assets/images/logo_fundacion.gif" alt=""></a>
+					<a class="navbar-brand" href="#"><img src="assets/images/logo_fundacion.gif" alt="Logo Fundación Niño y Cancer"></a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="index.html">Niño y Cancer</a></li>
-						<li><a href="nosotros.html">Nosotros</a></li>
-						<li><a href="noticias.html">Noticias</a></li>
+						<li><a href="index.html" class="nav-txt">Niño y Cancer</a></li>
+						<li class="nav-txt"><a href="nosotros.html">Nosotros</a></li>
+						<li class="nav-txt"><a href="noticias.html">Noticias</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
 	</header>
 
-	<section class="Historia-fundacion">
-		
-		<p>La fundación está convencida que para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo de los pacientes. El espíritu también se ve afectado y para salir adelante es esencial querer curarse. Por esta razón, son muy importantes los programas recreativos, los cuales ayudan a superar los sufrimientos y mantener vivo el deseo de curarse.</p>
+	<div class="jumbotron about">
+		<section class="Historia-fundacion">
+			
+			<div class="col-sm-6 col-md-8">
+			<h3>¿Quienes Somos?</h3>
+			
+			<p>La Fundación Niño y Cáncer es una entidad sin fines de lucro, cuyo objetivo principal es complementar el tratamiento de los niños con cáncer y/o leucemia tratados en los Hospitales Públicos (Plan AUGE y GES).
 
-		<p>La Fundación Niño y Cáncer es una entidad sin fines de lucro, cuyo objetivo principal es complementar el tratamiento de los niños con cáncer y/o leucemia tratados en los Hospitales Públicos (Plan AUGE y GES).
-		La Fundación quiere  resaltar que la lucha contra el cáncer no se limita a los tratamientos médicos, ya que la contención, apoyo e incentivo son indispensables en el proceso de curación. Estamos seguros que para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo del niño, es esencial preocuparse de que mantengan un espíritu luchador, alegre, que los ayude a superar los sufrimientos y mantener el deseo QUERER CURARSE.
-		Nuestro constante desafío es mejorar la calidad de vida de los niños con cáncer, dándoles apoyo social y solidario a la familia, generando espacios de recreación, actividades que los lleven a desarrollar sus capacidades y los incentiven a seguir luchando.</p>
+				
+			La Fundación quiere  resaltar que la lucha contra el cáncer no se limita a los tratamientos médicos, ya que la contención, apoyo e incentivo son indispensables en el proceso de curación. Estamos seguros que para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo del niño, es esencial preocuparse de que mantengan un espíritu luchador, alegre, que los ayude a superar los sufrimientos y mantener el deseo QUERER CURARSE.
+			
+			Nuestro constante desafío es mejorar la calidad de vida de los niños con cáncer, dándoles apoyo social y solidario a la familia, generando espacios de recreación, actividades que los lleven a desarrollar sus capacidades y los incentiven a seguir luchando.</p>
+			
+
+			</div>
+
+			
+			<h3>Filosofía</h3>
+			<p>La fundación está convencida que para derrotar el cáncer no sólo hay que preocuparse de curar el cuerpo de los pacientes. El espíritu también se ve afectado y para salir adelante es esencial querer curarse. Por esta razón, son muy importantes los programas recreativos, los cuales ayudan a superar los sufrimientos y mantener vivo el deseo de curarse.</p>
+			</div>
+	</div>
 	</section>
 
 	<section class="mision-fundacion">
@@ -62,14 +76,48 @@
 	</section>
 	
 	<footer class="footer-fundacion">
-		<h3>Contacto</h3>
-		<div class="social">Aquí las redes sociales</div>
-		<p>Teléfonos: 22170821 - 22170811</p>
-		<p>Email: fundacion@ninoycancer.cl</p>
-		<!--Aquí debe ir el mapa-->
-		<p>Dirección: Tupungato 10070 Vitacura, Santiago de Chile</p>
-		<h3>Formulario</h3>
+					
+		<!--Formulario-->		
+				<div class="col-md-3">
+					<div class="contact-form">
+					<h4><strong>¡Contáctanos!</strong></h4>	
+					</div>
+					<div class="con-form">
+						<form class="navbar-form navbar-left">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Nombre">
+								<input type="text" class="form-control" placeholder="Correo">
+								<input type="text" class="form-control" placeholder="Mensaje">
+							</div>
+							<button type="submit" class="btn btn-default">Enviar</button>
+							<i class="fas fa-phone"></i>
+							<p class="number">22170821 - 22170811</p>
 
+						</form>
+					</div>
+				</div>
+					
+					<!--Redes Sociales-->
+					<div class="redes">
+					<div class="row col-md-2 col-md-offset-2">
+						<div class="social">
+							<h4><strong>¡Síguenos!</strong></h4>	
+							<a class="social-ico" href="https://web.facebook.com/ninoycancer">
+							<i class="fab fa-facebook-square"></i>
+							</a>
+							<a class="social-ico" href="fundacion@ninoycancer.cl">
+							<i class="fas fa-at"></i>
+							</a>
+						</div>
+					</div>
+					</div>	
+				
+
+			
+			<!--Aquí debe ir el mapa-->
+		<div class="row col-md-3 col-md-offset-2">
+			<iframe class="footer-map" 	src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.51184726213!2d-70.53908698480241!3d-33.38380818079296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6283871%3A0x75682cb0ad81a60e!2sFundaci%C3%B3n+Ni%C3%B1o+y+Cancer!5e0!3m2!1ses!2scl!4v1525888823412" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
 	</footer>
 
 	<!--jquery-->
