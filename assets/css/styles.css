@@ -105,9 +105,9 @@ body {
 display: inline;
 }
 
-.news-complete div {
+.news-complete {
 display: inline;
-margin-top: 100px;
+margin-top: 20px;
 }
 
 .thumbnail { 
@@ -193,6 +193,13 @@ margin-top: 100px;
 	color: black;
 	text-align: left;
 
+}
+
+@media screen and (max-width: 400px) {
+.footer-fundacion {
+	background-color: #a23e98;
+
+}
 }
 
 
